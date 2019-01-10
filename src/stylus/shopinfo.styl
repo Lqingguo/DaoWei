@@ -95,36 +95,59 @@
 
 
   .content
-    width 1200px
-    margin 140px auto 0
-    height 800px
-    background #f1f1f1
-    .commen
-      margin-top 10px
-      width 960px
-      h3
-        font-size 26px
-        font-weight 700
-        background red
-        color #e94840
-      .userlist
-        li
-          width: 96%;
-          border-bottom: 1px solid #e5e5e5;
-          margin: 0 3%;
-          padding-top: 20px;
-          img
-            width 40px
-            height 40px
-            border-radius: 6px;
-            display: inline-block;
-            vertical-align: top;
-            .usertitle
-              width: auto;
-              height: auto
-              line-height 28px
-            .middle
-              line-height 28px
+    margin 200px auto 0
+    width 960px
+    h3
+      font-size 26px
+      font-weight 700
+      color #e94840
+    .userlist
+      li
+        width: 96%;
+        border-bottom: 1px solid #e5e5e5;
+        margin: 0 3%;
+        padding-top: 20px;
+        img
+          width 40px
+          height 40px
+          border-radius: 6px;
+          display: inline-block;
+          vertical-align: top;
+          .usertitle
+            width: auto;
+            height: auto
+            line-height 28px
+          .middle
+            line-height 28px
+
+    #containet
+      padding: 19px;
+      margin: auto;
+      display inline-block
+    #pageBox
+      display flex
+      span
+        display: inline-block;
+        width: 60px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        color: #fff;
+        background: #e94840
+      #pageNav
+        display inline-block
+        a
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          text-align: center;
+          color: black;
+          border 1px solid #000000
+          text-decoration: none;
+          &.active
+            background yellow
+
 
 @keyframes anim {
   0%{

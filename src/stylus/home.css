@@ -145,6 +145,7 @@
 #wrap .content .leftlist .ulright ul {
   background: rgba(255,255,255,0.6);
   display: none;
+  height: 300px;
 }
 #wrap .content .leftlist .ulright ul li {
   width: 100%;
@@ -153,6 +154,9 @@
   font-weight: 700;
   line-height: 30px;
   cursor: pointer;
+}
+#wrap .content .leftlist .ulright ul li:hover {
+  color: #e94840;
 }
 #wrap .content .box1 {
   margin-top: 20px;
