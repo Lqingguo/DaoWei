@@ -1,0 +1,222 @@
+#wrap
+  .header
+    height 130px
+    width 100%
+    position absolute
+    left 0px
+    top 0px
+    &.active
+      position fixed
+      top 0px
+      left 0px
+      z-index 10
+      animation anim 2s
+      background rgba(255,255,255,.9)
+    .header-top-warp
+      height 40px
+      background #f1f1f1
+      .header-top
+        height 40px
+        width 1200px
+        margin 0 auto
+        .nav
+          float right
+          li
+            font-weight 700
+            padding 0 15px
+            line-height 40px
+            float left
+            &:hover
+              background #ffffff
+              a
+                color #e94840
+            a
+              color black
+              font-weight 700
+      .left
+        line-height 40px
+        float left
+        a
+          span
+            font-weight 700
+    .header-bottom
+      width 1200px
+      height 90px
+      margin 0 auto
+      .logo
+        float left
+        width 280px
+        height 100%
+        a
+          display block
+          height 100%
+          text-align center
+          img
+            width 280px
+            height 40px
+            margin-top 20px
+      .search
+        width 700px
+        height 100%
+        float left
+        margin-left 50px
+        .inputwrap
+          height 36px
+          width 650px
+          margin-top 28px
+          span
+            background #e94840
+            display inline-block
+            cursor pointer
+            height 100%
+            text-align center
+            line-height 34px
+            color #fff
+            font-weight 300
+            width 120px
+            float left
+            border-radius 0 5px 5px 0
+          input
+            outline none
+            width 500px
+            height 100%
+            float left
+            border 2px solid #e94840
+            box-sizing border-box
+            border-radius 5px 0 0 5px
+      .right
+        float right
+        height 100%
+        width 90px
+        img
+          width 100%
+          height 100%
+
+  .content
+    margin-top 130px
+
+    .leftlist
+      position: absolute;
+      left 165px
+      top 130px
+      width 360px
+      .ulleft
+        float left
+        background #757881
+        width 180px
+        height 300px
+        li
+          width 100%
+          height: 30px
+          text-align center
+          color white
+          font-weight 700
+          line-height 30px
+          cursor: pointer
+          &:hover
+            background rgba(0,0,0,.3)
+      .ulright
+        float left
+        width 180px
+        height 300px
+        ul
+          background rgba(255,255,255,.6)
+          display none
+          li
+            width 100%
+            height: 30px
+            text-align center
+            font-weight 700
+            line-height 30px
+            cursor: pointer
+
+    .box1
+      margin-top 20px
+      height 654px
+      width 100%
+      .boxTop
+        width 1200px
+        height 446px
+        margin 0 auto
+        .title
+          .title1
+            text-align center
+            font-size 28px
+            font-weight 700
+          .title2
+            margin-top 15px
+            text-align center
+            a
+              margin 0 5px
+              font-size 22px
+              display inline-block
+              &:hover
+                 color red
+        .rows
+          margin-top 10px
+          display flex
+          height 345px
+          .row
+            display block
+            width 230px
+            padding 10px
+            border 1px solid #eaeaea
+            margin 0 5px
+            height 345px
+            &:hover
+              box-shadow 3px 3px #ccc
+            img
+              width 100%
+              height 100%
+            .rowtitle
+              font-size: 16px;
+              padding: 10px 0;
+              font-weight: 800;
+              color black
+            p
+              color: #929292;
+              padding: 5px 0;
+              font-size: 13px;
+              line-height: 18px;
+              height: 58px;
+            .money
+              font-size: 14px;
+              padding: 5px 5px;
+              font-weight: 600;
+              height: 20px;
+              line-height: 20px;
+              color: #fb474f
+              .span1
+                font-size 20px
+              .span2
+                float: right;
+                padding: 0;
+                width: 76px;
+                height: 24px;
+                line-height: 22px;
+                text-align: center;
+                background: #fb474f;
+                border-radius: 5px;
+                color: #fff;
+                font-size: 14px;
+      .boxbottom
+        width 1200px
+        border 1px solid #eaeaea
+        height 118px
+        box-sizing border-box
+        margin: 20px auto 0;
+        padding 10px
+        a
+          display inline-block
+          margin:14px 6px 0px;
+          color: #3d3838;
+          &:hover
+            color red
+@keyframes anim {
+  0%{
+    transform: rotateX(-30deg);
+  }
+  100%{
+    transform: rotateX(0deg);
+  }
+}
